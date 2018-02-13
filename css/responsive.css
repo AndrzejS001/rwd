@@ -1,0 +1,53 @@
+/*Wygląd nagłówków dla rodzielczości powyżej 1170px*/
+@media screen and (min-width:1170px){
+	#top-website{
+		background-image: url(../obrazy/man-1.jpg);
+		background-position: center right;
+		height: 100vh;
+		color:white;
+	}
+	#group-headings{
+		top:50%;
+		left: 20%;
+		transform: translate(-50%,-20%);
+	}
+}
+
+/*Wygląd nagłówków dla rodzielczości pomiędzy 992px,a 1170px*/
+@media screen and (min-width:992px) and (max-width:1169px){
+	#top-website{
+		background-image: url(../obrazy/man-2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 70vh;
+		color:white;
+		background-position:center right;
+	}	
+	#group-headings{
+		
+		right: 10%;
+		top: 10%;
+		transform: translate(-10%,-10%);
+		
+	}
+}
+
+
+/*Wygląd nagłówka dla rozdzielczości poniżej 992px*/
+@media screen and (max-width:991px){
+	#top-website{
+		background-image: url(../obrazy/man-1.jpg);
+		height: 50vh;
+		background-size: cover;
+		background-position:  center right;
+		color:black;
+	
+	}
+	#group-headings{
+		top:60%;
+		right: 0;
+		left: 0;
+		text-align: center;
+		transform: translateY(-60%);
+	}
+}

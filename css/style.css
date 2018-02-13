@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*Style dla headera*/
+#top-webisite{
+	font-family: 'Verdan',sans-serif;
+}
+/*style dla kontera na nagłówki*/
+#group-headings{
+	position: absolute;
+}
+/*Style dla poszczególnych na*/
+#group-headings h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+#group-headings h1{
+	font-size: 26px;
+	font-weight: 900;
+}
