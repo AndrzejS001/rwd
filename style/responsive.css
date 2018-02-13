@@ -25,9 +25,9 @@
 	}	
 	#group-headings{
 		
-		right: 10%;
-		top: 10%;
-		transform: translate(-10%,-10%);
+		right: 5%;
+		top: 5%;
+		transform: translate(-5%,-5%);
 		
 	}
 }
@@ -44,10 +44,11 @@
 	
 	}
 	#group-headings{
-		top:60%;
+		top:70%;
 		right: 0;
 		left: 0;
 		text-align: center;
-		transform: translateY(-60%);
+		transform: translateY(-70%);
+		
 	}
 }
